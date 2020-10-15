@@ -84,7 +84,7 @@ Click on "apply" and close the window.
 
 Open VoiceMeeter. It should look something like this:
 
-![VoiceMeeter](HOW_TO_INSTALL\Images\VoiceMeeter.png)
+![VoiceMeeter](HOW_TO_INSTALL/Images/VoiceMeeter.png)
 
 Note that the text beneath "Virtual Input" might differ from the image. This is okay.
 
