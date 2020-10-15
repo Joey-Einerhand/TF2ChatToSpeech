@@ -6,10 +6,14 @@
 
 *Question*: Does this run on any other platform than Windows?
 *Short answer*: No. This project was made as a windows alternative to a **Linux and OSX** Text To Speech script: [Sophie's Linux Text To Speech](https://steamcommunity.com/sharedfiles/filedetails/?id=1747696293). Fun fact: This project was inspired by Sophie :) 
+
 *Long answer*: This project targets .NET framework instead of .NET Core in order to access the VoiceSynthesizer package. Got an alternative which works with .NET Core? Feel free to contact me/make an issue/pull request!
 
+
+
 *Question*: Is this bannable by VAC?
-*Answer*: No. The only interaction between this program and Team Fortress 2 is the reading of a .log file.
+
+Answer*: No. The only interaction between this program and Team Fortress 2 is the reading of a .log file.
 
 
 
@@ -43,7 +47,9 @@ Download `tf_files.zip` from the most recent release from the [releases page](ht
 Unpack the *contents* from `tf_files.zip` into your `steamapps\common\Team Fortress 2\tf` folder.
 
 Go to your `steamapps\common\Team Fortress 2\tf\cfg` folder. If an `autoexec.cfg` doesn't exist, create one.
+
 Open your `autoexec.cfg` file with your text editor of choice. I recommend [Notepad++](https://notepad-plus-plus.org/downloads/).
+
 Add the following to the bottom of your `autoexec.cfg` file:
 
 ```
@@ -97,6 +103,7 @@ From left to right:
 Under "hardware input" 1 and 2, click on the "A" button in order to disable them (they should not light up green). This disables you from hearing the output of the program directly (and your microphone, if you use one).
 
 Under ''virtual input", click on the "B" button to disable it (It should not light up green). This prevents you from playing all incoming sounds through your microphone (For example, if you're listening to a song, or the in-game sound from Team Fortress 2).
+
 Your VoiceMeeter should now look something like this:
 
 ![filled_voicemeeter](HOW_TO_INSTALL/Images/filled_voicemeeter.png)
@@ -118,6 +125,7 @@ To start TF2Chat To Speech, open `TF2ChatToSpeech.exe`. This file is located in 
 The program will ask you if you want to load any previous settings. Press `n`.
 
 The program will now ask you to input the output device number of your CABLE Input. 
+
 In order to determine the right number for you, press the windows key and search for "Sound Settings". After opening this window, click on "Sound Control Panel". (Alternatively, right click on the speaker icon in your task bar, click on "Sound Settings", and open "Sound control panel").
 
 Under the "Playback" tab, scroll down until you see the CABLE Input device. In order to determine it's number, count up from 0, starting at the bottom of your devices list. Like so:
@@ -137,6 +145,7 @@ If no error appears, it means you've successfully set up TF2Chat To Speech. Next
 
 
 Congratulations, you're done! Hop into a match of TF2, press `v` (or the key you've specified in `toggleopenvoice.cfg`) and play!
+
 Don't forget, if you've done Step 2b Advanced installation, you need to open VoiceMeeter in order for TF2Chat To Speech to work!
 
 
