@@ -4,10 +4,6 @@
 
 ### FAQ
 
-*Question*: Does this run on any other platform than Windows?
-*Short answer*: No. This project was made as a windows alternative to a **Linux and OSX** Text To Speech script: [Sophie's Linux Text To Speech](https://steamcommunity.com/sharedfiles/filedetails/?id=1747696293). Fun fact: This project was inspired by Sophie :) 
-
-*Long answer*: This project targets .NET framework instead of .NET Core in order to access the VoiceSynthesizer package. Got an alternative which works with .NET Core? Feel free to contact me/make an issue/pull request!
 
 | Question                                                     | Answer                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
