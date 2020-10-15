@@ -69,8 +69,10 @@ namespace TF2TextToSpeech
             pathToTF = Console.ReadLine();
 
             Console.WriteLine("Please enter the name of your console output file");
-            Console.WriteLine("Default: tf2consoleoutputlog.log");
+            Console.WriteLine("Default: tf2consoleoutput.log");
             consoleLogFileName = Console.ReadLine();
+
+            Console.WriteLine("\n");
 
             TryGetLogFileLoop();
             
