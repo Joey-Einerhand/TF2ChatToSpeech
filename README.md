@@ -99,7 +99,7 @@ Under "hardware input" 1 and 2, click on the "A" button in order to disable them
 Under ''virtual input", click on the "B" button to disable it (It should not light up green). This prevents you from playing all incoming sounds through your microphone (For example, if you're listening to a song, or the in-game sound from Team Fortress 2).
 Your VoiceMeeter should now look something like this:
 
-![filled_voicemeeter](\HOW_TO_INSTALL\Images\filled_voicemeeter.png)
+![filled_voicemeeter](HOW_TO_INSTALL/Images/filled_voicemeeter.png)
 
 Continue to step 3.
 
@@ -122,7 +122,7 @@ In order to determine the right number for you, press the windows key and search
 
 Under the "Playback" tab, scroll down until you see the CABLE Input device. In order to determine it's number, count up from 0, starting at the bottom of your devices list. Like so:
 
-![determine_device_number](HOW_TO_INSTALL\Images\determine_device_number.png)
+![determine_device_number](HOW_TO_INSTALL/Images/determine_device_number.png)
 
 The devices listed under playback tab might be different from yours. For example, if you did the basic installation (Step 2a) you would not have the VoiceMeeter devices installed.
 
