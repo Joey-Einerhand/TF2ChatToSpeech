@@ -11,6 +11,8 @@
 
 
 
+
+
 *Question*: Is this bannable by VAC?
 
 Answer*: No. The only interaction between this program and Team Fortress 2 is the reading of a .log file.
