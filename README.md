@@ -77,7 +77,7 @@ Download and install [VB-Virtual Audio Cable](https://vb-audio.com/Cable/index.h
 
 Press the windows key and search for "Sound Settings". After opening this window, click on "Sound Control Panel". (Alternatively, right click on the speaker icon in your task bar, click on "Open Sound Settings", and open "Sound control panel").
 
-Under the "Playback" tab, scroll down until you see your default playback device. You can see whether a device is default by looking for a green checkmark![Checkmark](D:\Code\Github\TF2TextToSpeech\HOW_TO_INSTALL\Images\Checkmark.png) Remember this device, you're going to need it when configuring VoiceMeeter.
+Under the "Playback" tab, scroll down until you see your default playback device. You can see whether a device is default by looking for a green checkmark![Checkmark](HOW_TO_INSTALL\Images\Checkmark.png) Remember this device, you're going to need it when configuring VoiceMeeter.
 
 Scroll down until you see two "VoiceMeeter" input devices. Select `VoiceMeeter Input` and set it to default by clicking "Set Default". Select `VoiceMeeter Aux Input`, click on the arrow next to 'Set default' and click on the "Default communications device" option.
 
