@@ -79,7 +79,7 @@ Press the windows key and search for "Sound Settings". After opening this window
 
 Under the "Playback" tab, scroll down until you see your default playback device. You can see whether a device is default by looking for a green checkmark![Checkmark](HOW_TO_INSTALL/Images/Checkmark.png) Remember this device, you're going to need it when configuring VoiceMeeter.
 
-Scroll down until you see two "VoiceMeeter" input devices. Select `VoiceMeeter Input` and set it to default by clicking "Set Default". Select `VoiceMeeter Aux Input`, click on the arrow next to 'Set default' and click on the "Default communications device" option.
+Scroll down until you see two "VoiceMeeter" input devices. Select `VoiceMeeter Input` and set it to default by clicking "Set Default". Select `VoiceMeeter Aux Input`, click on the arrow next to 'Set default' and click on the "Default communications device" option. If you do not have `VoiceMeeter Aux Input`, don't change your default communications device.
 
 Under the "Input" tab, repeat the previous step but with `VoiceMeeter Output` and `VoiceMeeter Aux Output` instead of the `input` devices.
 
