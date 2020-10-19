@@ -131,7 +131,7 @@ Under the "Playback" tab, scroll down until you see the CABLE Input device. In o
 
 The devices listed under playback tab might be different from yours. For example, if you did the basic installation (Step 2a) you would not have the VoiceMeeter devices installed.
 
-In my case, I'd input "2" as my device number. After inserting your device number, press enter.
+In my case, I'd select input "2" as my device number. After inserting your device number, press enter.
 
 Afterwards, the program will ask you to specify a path to your `Team Fortress 2\tf` folder. This folder is located in `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf` by default, but this might not be the case if you've installed Steam or Team Fortress 2 in a different location. Press enter once you've put in the correct file path.
 
