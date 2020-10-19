@@ -9,7 +9,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | *Question*: Does this run on any other platform than Windows? | *Short answer*: No. This project was made as a windows alternative to a **Linux and OSX** Text To Speech script: [Sophie's Linux Text To Speech](https://steamcommunity.com/sharedfiles/filedetails/?id=1747696293). Fun fact: This project was inspired by Sophie :)<br /><br />*Long answer*: This project targets .NET framework instead of .NET Core in order to access the VoiceSynthesizer package. Got an alternative which works with .NET Core? Feel free to contact me/make an issue/pull request! |
 | *Question*: Is this bannable by VAC?                         | No. The only interaction between this program and Team Fortress 2 is the reading of a .log file. |
-
+f
 
 
 
@@ -18,7 +18,7 @@
 
 - Windows 7 or higher,
 - [VB-Virtual Audio Cable](https://vb-audio.com/Cable/index.htm) (Free)
-- (These programs are **optional**, see "how to install") [VoiceMeeter](https://vb-audio.com/Voicemeeter/index.htm) (Free, basic. This version is featured in the install tutorial) OR [VoiceMeeter Banana](https://vb-audio.com/Voicemeeter/banana.htm) (Free, for advanced users)
+- (These programs are **optional**, see "how to install") [VoiceMeeter](https://vb-audio.com/Voicemeeter/index.htm) (Free/donationware, basic. This version is featured in the install tutorial) OR [VoiceMeeter Banana](https://vb-audio.com/Voicemeeter/banana.htm) (Free/donationware, for advanced users)
 - Team Fortress 2.
 
 
