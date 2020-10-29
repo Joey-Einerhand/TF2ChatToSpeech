@@ -14,10 +14,18 @@ namespace TF2TextToSpeech
     public class TextToSpeech
     {
         private ClassConnector classConnector;
+        public List<string> installedVoiceNames = new List<string>();
         
         public TextToSpeech(ClassConnector classConnector)
         {
             this.classConnector = classConnector;
+            using (SpeechSynthesizer synth = new SpeechSynthesizer())
+            {
+                foreach (InstalledVoice voice in synth.GetInstalledVoices())
+                {
+                    installedVoiceNames.Add(voice.VoiceInfo.Name);
+                }
+            }
         }
 
 

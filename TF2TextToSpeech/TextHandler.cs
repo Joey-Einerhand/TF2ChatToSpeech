@@ -31,6 +31,7 @@ namespace TF2TextToSpeech
             // If line shouldn't be said, return an empty string instead.
             if (ShouldLineBeSaid(lineToCheck))
             {
+                lineToSay = lineToCheck;
                 previousLineToSay = lineToSay;
                 return lineToSay;
             }
@@ -118,6 +119,7 @@ namespace TF2TextToSpeech
 
         public string GetVoice(string lineToCheck)
         {
+            List<string> installedVoiceNames = classConnector.textToSpeech.installedVoiceNames;
             int amountOfInstalledVoices = classConnector.userSettings.amountOfInstalledVoices;
             Match VoiceCommandMatch = Regex.Match(lineToCheck, "(\\$V)(\\d{1,2})");
             if (VoiceCommandMatch.Success)
@@ -132,18 +134,13 @@ namespace TF2TextToSpeech
                 {
                     voiceNumber = 0;
                 }
+                
 
-                // make sure the rate doesn't surpass Synth boundaries
-                // Doesn't follow SOLID principles but.. ¯\_(ツ)_/¯
-                switch (voiceNumber)
-                {
-                    case 1: return "Microsoft Zira Desktop";
-                    case 2: return "Microsoft Haruka Desktop";
-                    case 0:
-                    default: return "Microsoft Hazel Desktop";
-                }
+                // Get a voice from a list of voice names located at the index of voiceNumber and return it
+                return installedVoiceNames[voiceNumber];
             }
-            else { return "Microsoft Hazel Desktop"; }
+            // return first installed voice (default)
+            else { return installedVoiceNames[0]; }
 
         }
 
