@@ -9,7 +9,9 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | *Question*: Does this run on any other platform than Windows? | *Short answer*: No. This project was made as a windows alternative to a **Linux and OSX** Text To Speech script: [Sophie's Linux Text To Speech](https://steamcommunity.com/sharedfiles/filedetails/?id=1747696293). Fun fact: This project was inspired by Sophie :)<br /><br />*Long answer*: This project targets .NET framework instead of .NET Core in order to access the VoiceSynthesizer package. Got an alternative which works with .NET Core? Feel free to contact me/make an issue/pull request! |
 | *Question*: Is this bannable by VAC?                         | No. The only interaction between this program and Team Fortress 2 is the reading of a .log file. |
+| *Question*: How does this work?                              | This TTS works by grabbing a log file of TF2's console and checking for any in-game messages. These in-game messages will be automatically put through the TTS. Any commands will also be picked up.|
 
+![HowItWorks](HOW_TO_INSTALL/Images/HowItWorks.png)
 
 
 
