@@ -121,7 +121,7 @@ namespace TF2TextToSpeech
         {
             List<string> installedVoiceNames = classConnector.textToSpeech.installedVoiceNames;
             int amountOfInstalledVoices = classConnector.userSettings.amountOfInstalledVoices;
-            Match VoiceCommandMatch = Regex.Match(lineToCheck, "(\\$V)(\\d{1,2})");
+            Match VoiceCommandMatch = Regex.Match(lineToCheck, "(\\$V)(\\d{1,5})");
             if (VoiceCommandMatch.Success)
             {
                 // From the match, get the second group (\\d), which contains a digit, and return it
